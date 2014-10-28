@@ -25,14 +25,15 @@ public final class R {
         public static final int novo=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f080013;
+        public static final int action_settings=0x7f080014;
         public static final int btcadastrolavoura=0x7f08000f;
         public static final int btcadastrotecnico=0x7f080004;
         public static final int btcadastrousuario=0x7f08000e;
         public static final int btlogin=0x7f080003;
+        public static final int btvisita=0x7f080010;
         public static final int button1=0x7f08000a;
         public static final int button2=0x7f08000b;
-        public static final int button3=0x7f080010;
+        public static final int button3=0x7f080013;
         public static final int button4=0x7f080011;
         public static final int editText1=0x7f080002;
         public static final int editText2=0x7f080005;

@@ -23,7 +23,7 @@ public class MenuNovo extends Activity {
 				// aqui 3 parte
 				Intent TrocaTela = new Intent(MenuNovo.this,CadastroLavoura.class);
 				MenuNovo.this.startActivity(TrocaTela);
-				MenuNovo.this.finish();
+			
 			}
 		});
 		// aqui 2 parte
@@ -36,7 +36,7 @@ public class MenuNovo extends Activity {
 						// aqui 3 parte
 						Intent TrocaTela1 = new Intent(MenuNovo.this,CadastroUsuario.class);
 						MenuNovo.this.startActivity(TrocaTela1);
-						MenuNovo.this.finish();
+						
 					}
 				});
 	}
