@@ -59,6 +59,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.80"
         android:orientation="vertical" >
 
         <FrameLayout
@@ -66,9 +67,10 @@
             android:layout_height="96dp" >
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/btlogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="abrirMenu"
                 android:text="Login" />
         </FrameLayout>
     </LinearLayout>
@@ -83,7 +85,7 @@
             android:layout_height="wrap_content" >
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btcadastrotecnico"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2.44"
