@@ -40,7 +40,7 @@ public class Principal extends Activity {
 				// aqui 3 parte
 				Intent TrocaTela = new Intent(Principal.this,CadastroTecnico.class);
 				Principal.this.startActivity(TrocaTela);
-				Principal.this.finish();
+				
 			}
 		});
 		

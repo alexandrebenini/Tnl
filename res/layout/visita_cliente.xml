@@ -32,7 +32,7 @@
         android:id="@+id/btProcurarCliente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" Pesquisar Cliente : " />
+        android:text=" Pesquisar Cliente  " />
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -22,7 +22,7 @@
                 android:text=" Nome :       " />
 
             <EditText
-                android:id="@+id/editText1"
+                android:id="@+id/txNomeCliente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -49,7 +49,7 @@
                 android:text=" Endereço :  " />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/txEnderecoCliente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -73,7 +73,7 @@
                 android:text=" Telefone :   " />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/txTelefoneCliente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -97,7 +97,7 @@
                 android:text=" CPF :           " />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/txCpfCliente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -121,7 +121,7 @@
             </FrameLayout>
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/btSalvarCliente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Salvar" />
