@@ -38,6 +38,14 @@
             android:name="com.example.tnl.VisitaCliente"
             android:label="@string/title_activity_visita_cliente" >
         </activity>
+        <activity
+            android:name="com.example.tnl.CadastroProduto"
+            android:label="@string/title_activity_cadastro_produto" >
+        </activity>
+        <activity
+            android:name="com.example.tnl.CadastroTecnico"
+            android:label="@string/title_activity_cadastro_tecnico" >
+        </activity>
     </application>
 
 </manifest>

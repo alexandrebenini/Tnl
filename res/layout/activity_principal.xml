@@ -64,7 +64,7 @@
 
         <FrameLayout
             android:layout_width="158dp"
-            android:layout_height="96dp" >
+            android:layout_height="wrap_content" >
 
             <Button
                 android:id="@+id/btlogin"
@@ -73,6 +73,7 @@
                 android:onClick="abrirMenu"
                 android:text="Login" />
         </FrameLayout>
+
     </LinearLayout>
 
     <LinearLayout

@@ -32,6 +32,17 @@ public class Principal extends Activity {
 				Principal.this.finish();
 			}
 		});
+		btcadastrotecnico = (Button) findViewById(R.id.btcadastrotecnico);
+		btcadastrotecnico.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// aqui 3 parte
+				Intent TrocaTela = new Intent(Principal.this,CadastroTecnico.class);
+				Principal.this.startActivity(TrocaTela);
+				Principal.this.finish();
+			}
+		});
 		
 	}
 

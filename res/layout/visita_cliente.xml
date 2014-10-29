@@ -8,13 +8,31 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="                              Relatorio Da Visita" />
+        android:text="Relatorio Da Visita" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Nome    : " />
+
+        <EditText
+            android:id="@+id/txProcurarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btProcurarCliente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pesquisar Cliente" />
+        android:text=" Pesquisar Cliente : " />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,29 +44,10 @@
             android:layout_height="wrap_content" >
 
             <TextView
-                android:id="@+id/textView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nome :" />
-
-            <EditText
-                android:id="@+id/editText1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Descrição" />
+                android:text=" Descrição : " />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -56,7 +55,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/txDescricao"
                 android:layout_width="match_parent"
                 android:layout_height="168dp"
                 android:ems="10" >
@@ -73,11 +72,29 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/button2"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.02" >
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btFoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tirar Foto " />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tirar Foto " />
+            android:layout_weight="0.11"
+            android:text=" Nivel tecnologico : " />
 
     </LinearLayout>
 
@@ -90,19 +107,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
-            <TextView
-                android:id="@+id/textView3"
+            <CheckBox
+                android:id="@+id/CheckBoxNivelAlto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.11"
-                android:text="Nivel tecnologico :" />
-
-            <RadioButton
-                android:id="@+id/radioButton1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.38"
+                android:layout_weight="0.95"
                 android:text="Alto" />
+
+            <CheckBox
+                android:id="@+id/CheckBoxNivelMedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.95"
+                android:text="Medio" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNivelBaixo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.95"
+                android:text="Baixo" />
 
         </LinearLayout>
 
@@ -123,13 +147,6 @@
                 android:layout_weight="0.71" >
             </FrameLayout>
 
-            <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.67"
-                android:text="Medio" />
-
         </LinearLayout>
 
     </LinearLayout>
@@ -148,13 +165,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.49" >
             </FrameLayout>
-
-            <RadioButton
-                android:id="@+id/radioButton3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.48"
-                android:text="Baixo" />
 
         </LinearLayout>
 
@@ -176,10 +186,12 @@
             </FrameLayout>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btSalvar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.19"
                 android:text="Salvar" />
+
         </LinearLayout>
 
     </LinearLayout>

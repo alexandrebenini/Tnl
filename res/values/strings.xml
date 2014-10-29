@@ -7,5 +7,7 @@
     <string name="title_activity_cadastro_usuario">CadastroUsuario</string>
     <string name="title_activity_cadastro_lavoura">CadastroLavoura</string>
     <string name="title_activity_visita_cliente">VisitaCliente</string>
+    <string name="title_activity_cadastro_produto">CadastroProduto</string>
+    <string name="title_activity_cadastro_tecnico">CadastroTecnico</string>
 
 </resources>
