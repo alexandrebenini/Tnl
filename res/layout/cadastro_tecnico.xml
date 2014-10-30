@@ -1,18 +1,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cadastro de Tecnico " />
     </LinearLayout>
 
     <LinearLayout
@@ -62,12 +58,32 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.98" >
             </FrameLayout>
+        </LinearLayout>
 
-            <Button
-                android:id="@+id/btSalvarTecnico"
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.91" >
+            </FrameLayout>
+
+            <ImageButton
+                android:id="@+id/btImageSalvarTecnico"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salvar" />
+                android:layout_weight="0.06"
+                android:src="@android:drawable/ic_menu_save" />
+
         </LinearLayout>
 
     </LinearLayout>

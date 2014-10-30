@@ -29,10 +29,10 @@ public final class R {
         public static final int CheckBoxNivelMedio=0x7f080020;
         public static final int action_settings=0x7f080023;
         public static final int btFoto=0x7f08001e;
+        public static final int btImageSalvarTecnico=0x7f080016;
         public static final int btProcurarCliente=0x7f08001c;
         public static final int btSalvar=0x7f080022;
         public static final int btSalvarCliente=0x7f08000b;
-        public static final int btSalvarTecnico=0x7f080016;
         public static final int btcadastrarprodutos=0x7f08001a;
         public static final int btcadastrolavoura=0x7f080018;
         public static final int btcadastrotecnico=0x7f080004;

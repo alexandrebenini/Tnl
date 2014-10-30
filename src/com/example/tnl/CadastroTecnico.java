@@ -8,13 +8,16 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class CadastroTecnico extends Activity {
 	TecnicoDAO tecnicoDAO = new TecnicoDAO(this);
-	Button btSalvarTecnico;
+
+	ImageButton btImageButtonSalvarTecnico;
 	
 	
 
@@ -24,11 +27,11 @@ public class CadastroTecnico extends Activity {
 		setContentView(R.layout.cadastro_tecnico);
 		
 		
-		
+		 
 		
 		// aqui 2 parte
-		btSalvarTecnico = (Button) findViewById(R.id.btSalvarTecnico);
-		btSalvarTecnico.setOnClickListener(new View.OnClickListener() {
+		btImageButtonSalvarTecnico = (ImageButton) findViewById(R.id.btImageSalvarTecnico);
+		btImageButtonSalvarTecnico.setOnClickListener(new View.OnClickListener() {
 					
 					@Override
 					public void onClick(View arg0) {

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 public class MenuNovo extends Activity {
@@ -13,7 +14,11 @@ public class MenuNovo extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		 requestWindowFeature(Window.FEATURE_NO_TITLE);    
+         
+	        setContentView(R.layout.menu_novo);
 		setContentView(R.layout.menu_novo);
+		
 		
 		btcadastrarprodutos = (Button) findViewById(R.id.btcadastrarprodutos);
 		btcadastrarprodutos.setOnClickListener(new View.OnClickListener() {
